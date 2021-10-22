@@ -28,7 +28,7 @@ class App extends Component {
                 <h1>ROBOFRIENDS</h1>
                 <SearchBox searchChange={this.onSearchChange}/>
                 {
-                    !filteredRobots.length && <p className
+                    !filteredRobots.length && <p className='f1'> Robot not found</p>
                 }
                 <CardList robots={filteredRobots} />
             </div>
